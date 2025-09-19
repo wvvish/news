@@ -123,3 +123,23 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+NEWS_CATEGORIES = [
+    ('politics', 'Политика'),
+    ('economy', 'Экономика'),
+    ('technology', 'Технологии'),
+    ('sports', 'Спорт'),
+    ('entertainment', 'Развлечения'),
+    ('science', 'Наука'),
+    ('health', 'Здоровье'),
+]
+
+NEWS_SOURCES = [
+    ('rbc', 'РБК'),
+    ('kommersant', 'Коммерсант'),
+    ('vedomosti', 'Ведомости'),
+    ('tass', 'ТАСС'),
+    ('ria', 'РИА Новости'),
+    ('lenta', 'Лента.ру'),
+    ('gazeta', 'Газета.ру'),
+]
